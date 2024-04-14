@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    position: absolute;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    animation-name: move;
+    animation-duration:2s ;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move{
+  0%{
+    background-color: green;
+    top: 0%;
+    left: 0%;
+  }
+  33%{
+    background-color: white;
+    top: 0%;
+    left: 30%;
+  }
+  66%{
+    background-color: orange;
+    top: 90%;
+    left: 30%;
+  }
+  90%{
+    background-color: red;
+    top: 90%;
+    left: 0%;
+  }
+
+
+  100%{
+    background-color: black;
+    top: 0%;
+    left: 0%;
+  }
+}

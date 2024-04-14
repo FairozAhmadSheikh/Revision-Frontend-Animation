@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+
+}
+#overlay{
+    transition: all cubic-bezier(0.95, 0.05, 0.795, 0.035) 1s;
+    pointer-events: none;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+#modal{
+    top: 5%;
+    left: 30%;
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    background-color: white;
+    border-radius: 12px;
+}
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    background-color: rgb(138, 138, 211);
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width:100px;
+    font-family: Anurati;
+    color: white;
+    font-size: 20px;
+    
+}

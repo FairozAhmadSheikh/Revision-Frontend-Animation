@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+#card{
+    position: relative;
+    border-radius: 20px;
+    height: 250px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+#img{   
+    margin-left: 35%;
+    height: 40px;
+    width: 40px;
+    object-fit: center;
+    border-radius: 50%;
+
+}
+#card>h1{
+    margin-left: 12px;
+    font-size: 22px;
+    font-family: Anurati;
+    color: white;
+}
+#card>p{
+    margin-top: 12px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+#card>h2{
+    margin-top:2px;
+    color: orangered;
+    background-color: green;
+    border-radius: 20px;
+    text-align: center;
+}
+#card>button{
+    margin-top: 6px;
+    font-size: 10px;
+    font-weight: 900;
+    background: transparent;
+    border: none;
+    background-color: aqua;
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+    padding: 0px 1px;
+    border-radius: 16px;
+    color: red;
+    
+}
